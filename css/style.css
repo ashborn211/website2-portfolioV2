@@ -27,6 +27,7 @@ footer{
   float: left;
   color: whitesmoke;
   padding: 25px;
+  font-size: xx-large;
 }
 
 
@@ -61,62 +62,168 @@ ul {
     margin-right: auto;
     width: 1000px;
     color: whitesmoke;
+    font-size: xx-large;
+}
+
+.bloktekst2{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  color: whitesmoke;
+  font-size: x-large   ;
 }
 
 .profilefoto{
     float: right;
+    padding: 25px;
 }
 
 .schoolfoto{
   float: right;
+  padding: 25px;
 }
 
 table, th, td {
   border:1px solid black;
   height: 35px;
-  margin-top: 213px;
+  margin-top: 60px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  column-gap: 70px;
+  row-gap: 70px;
+  padding: 10px;
+  float: right;
+  margin-right: 100px;
+  margin-top: 100px;
+  font-size: xx-large;
+}
+
+.grid-container > div{
+  background-color: grey;
+  padding: 20px;
+  text-align: left;
 }
 
 .download1{
   float: left;
-  margin-top: 50px;
-  display: block;
-  background-color: darkblue;
+  margin-left: -435px;
+  margin-top: 11px;
+  background-color: grey;
   color: black;
   padding: 15px;
   cursor: pointer;
   text-decoration: none;
-  width: 300px;
+  width: 396px;
   text-align: center;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 26px;
   }
+
+  .download2{
+    float: left;
+    margin-left: 10px;
+    margin-top: 95px;
+    background-color: grey;
+    color: black;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 396px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 26px;
+    }
+
+.download3{
+  float: left;
+  background-color: gray;
+  color: whitesmoke;
+  padding: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 396px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 26px;
+    margin-top: 152px;
+    margin-left: 218px;
+}
+
+.download4{
+  float: right;
+  margin-right: 460px;
+  margin-top: 11px;
+  background-color: grey;
+  color: black;
+  padding: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 396px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 26px;
+  }
+
+  .download5{
+  float: left;
+  background-color: gray;
+  color: whitesmoke;
+  padding: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 396px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 26px;
+      margin-top: 152px;
+    margin-left: 218px;
+
+}
+
+.githublink{
+  float: left;
+  background-color: gray;
+  color: whitesmoke;
+  padding: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 396px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 26px;
+}
+
+.figmaafbeelding{
+  float: left;
+  margin-top: 170px;
+}
+
+.figmaafbeelding2{
+  float: left;
+  margin-left: 443px;
+  margin-top: 2px;
+}
+
 
   .flex-container {
     display: flex;
-    background-color: rgb(58, 63, 68);  
+    background-color: #434343;  
     justify-content: space-around;
     justify-items: center;
     height: 300px;
-    margin-top: 364px;
+    margin-top: 100px;
     }
   
   .flex-container > div {
-    background-color: #f1f1f1;
+    background-color: #434343;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
     
   }
-
-
-
-
-
-
-
-
-
 
 
   
